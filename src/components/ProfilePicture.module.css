@@ -1,0 +1,12 @@
+.ProfilePicture {
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	margin-right: 2rem;
+}
+
+.ProfilePicture img {
+	width: 100%;
+	height: auto;
+}
