@@ -10,3 +10,12 @@
 	width: 100%;
 	height: auto;
 }
+
+@media (max-width: 767px) {
+	/* CSS */
+	.ProfilePicture {
+		width: 100px;
+		height: 100px;
+		margin-right: 1rem;
+	}
+}

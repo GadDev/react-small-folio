@@ -6,10 +6,10 @@ const SocialProfile = ({ ...props }) => {
 			href={link}
 			target='_blank'
 			rel='noreferrer'
-			style={{ margin: '.2rem' }}
+			style={{ margin: '.5rem' }}
 		>
 			<div>
-				<img src={image} alt={id} style={{ width: 35, height: 35 }} />
+				<img src={image} alt={id} style={{ width: 20, height: 20 }} />
 			</div>
 		</a>
 	);

@@ -1,0 +1,11 @@
+.Projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+@media (max-width: 767px) {
+	.Projects {
+		flex-direction: column;
+	}
+}

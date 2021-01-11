@@ -1,7 +1,8 @@
+import styles from './Project.module.css';
 const Project = ({ ...props }) => {
 	const { title, description, link, image } = props;
 	return (
-		<article style={{ maxWidth: '300px', padding: '.5rem' }}>
+		<article className={styles.Project}>
 			<h2>{title}</h2>
 			<img
 				src={image}
