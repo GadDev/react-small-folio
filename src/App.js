@@ -3,6 +3,7 @@ import Projects from './components/Projects';
 import ProfilePicture from './components/ProfilePicture';
 import SocialProfiles from './components/SocialProfiles';
 import Footer from './components/Footer';
+import Title from './components/Title';
 import styles from './App.module.css';
 const App = () => {
 	const initialState = {
@@ -38,14 +39,11 @@ const App = () => {
 				<ProfilePicture />
 				<h1>Bonjour!</h1>
 			</div>
-			<p>
-				My name is Alexandre, I'm Frontend engineer. I'm always looking
-				forward to working on meaningful projects.
-			</p>
-
+			<p>My name is Alexandre.</p>
+			{state.displayBio && <Title />}
+			<p>I'm always looking forward to working on meaningful projects.</p>
 			{bio}
 			<button onClick={toggleDisplayBio}>{btnLabel}</button>
-
 			<Projects />
 			<Footer>
 				<SocialProfiles />
